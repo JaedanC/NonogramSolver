@@ -58,6 +58,10 @@ void Row::pass() {
 	//grid_mutex.unlock();
 }
 
+/**
+ * Based on https://stackoverflow.com/a/28966794 by
+ * https://stackoverflow.com/users/1340389/kevin
+ */
 bool Row::barsAndStars(int bars, int stars, string prefix) {
 	string comb;
 	if (stars == 0) {
